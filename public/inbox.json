@@ -1,37 +1,37 @@
 [
 	{
 		"mId": "guid-1",
-"sender":"AKansh Saxena",
+"sender":"Obama",
 		"unread": true,
-		"subject" : "Training Program",
+		"subject" : "Program",
 		"content" : "About Microsoft Virtual Academy<br/>Microsoft Virtual Academy provides free online training by world-class experts to help you build your technical skills and advance your career. Make it your destination of choice to get started on the latest Microsoft technologies and join this vibrant community."
 	},
 	{
 		"mId": "guid-2",
 		"unread": false,
-"sender":"Outlook Team",
-		"subject" : "Empower your future",
+"sender":"Julie",
+		"subject" : "Empower the destiny",
 		"content" : "We foster our pipeline of future leaders with 47 employee networks and 7 global employee resource groups, servicing an active community of thousands across Microsoft"
 	},
 {
 		"mId": "guid-3",
-"sender":"AKansh Saxena",
+"sender":"Ankit Singh",
 		"unread": true,
-		"subject" : "Training Program",
+		"subject" : "Training the dev",
 		"content" : "About Microsoft Virtual Academy<br/>Microsoft Virtual Academy provides free online training by world-class experts to help you build your technical skills and advance your career. Make it your destination of choice to get started on the latest Microsoft technologies and join this vibrant community."
 	},
 {
 		"mId": "guid-4",
-"sender":"AKansh Saxena",
+"sender":"Rashmi",
 		"unread": true,
-		"subject" : "Training Program",
+		"subject" : "Program",
 		"content" : "About Microsoft Virtual Academy<br/>Microsoft Virtual Academy provides free online training by world-class experts to help you build your technical skills and advance your career. Make it your destination of choice to get started on the latest Microsoft technologies and join this vibrant community."
 	},
 {
 		"mId": "guid-5",
-"sender":"AKansh Saxena",
+"sender":"Roshni Sharma",
 		"unread": true,
-		"subject" : "Training Program",
+		"subject" : "Mail the PPT",
 		"content" : "About Microsoft Virtual Academy<br/>Microsoft Virtual Academy provides free online training by world-class experts to help you build your technical skills and advance your career. Make it your destination of choice to get started on the latest Microsoft technologies and join this vibrant community."
 	},
 {
