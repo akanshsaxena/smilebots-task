@@ -34,6 +34,8 @@ export default function MailsMeta() {
   };
   const deletes = (mail) => {
     dispatch(deleteMail(mail));
+    // const arr = mails;
+    // arr.
   };
   const randomDate = (start, end, startHour, endHour) => {
     var date = new Date(+start + Math.random() * (end - start));

@@ -45,6 +45,7 @@ code {
   width: 40%;
   border-left: 2px solid #b2b2b2;
   border-right: 2px solid #b2b2b2;
+  overflow: auto;
 }
 
 .meta-mails-inner-container {
