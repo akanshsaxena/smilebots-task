@@ -1,13 +1,119 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+}
+
+.folder {
+  width: 15%;
+
+  background: #e2e2e2;
+}
+
+.folder>h3 {
+  padding: 30px;
+}
+
+.folder-name {
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.selected {
+  background: #90d1ff;
+}
+
+.folder-name:hover {
+  background: #c2c2c2;
+}
+
+.meta-mails-container {
+  width: 40%;
+  border-left: 2px solid #b2b2b2;
+  border-right: 2px solid #b2b2b2;
+}
+
+.meta-mails-inner-container {
+  margin-top: 70px;
+}
+
+.mail-meta {
+  width: 100%;
+  border-bottom: 1px solid #e2e2e2;
+  cursor: pointer;
+
+}
+
+.mail-meta:hover,
+.mail.meta:focus {
+  background: #c2c2c2;
+}
+
+.mail-meta>p,
+.mail-meta>h4 {
+  margin-left: 10px;
+}
+
+.mail-meta-sender {
+  margin-left: 10px;
+  font-weight: lighter;
+  font-size: 1.1rem;
+}
+
+.mail-meta-subject {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.mail-meta-content {
+  font-weight: lighter;
+  font-size: 0.9rem;
+}
+
+.mail-content-container {
+  width: 50%;
+}
+
+.mail-content {
+  width: 50%;
+  background: #f2f2f2;
+  color: #006ab9;
+}
+
+.no-mail-message {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  margin-left: 15%;
+}
+
+.mail-content-inner-container {
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.delete {
+  color: black;
+  font-size: 0.8rem;
+  padding: 5px;
+}
+
+.delete:hover {
+  color: red;
 }
